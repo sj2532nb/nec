@@ -1,0 +1,322 @@
+#section3 {
+  width: 370px;
+  position: absolute;
+  top: 209px;
+  left: 50%;
+  margin: 0 0 0 270px;
+}
+#section3 .container {
+  width: 100%;
+}
+#section3 .container .gap {
+  width: 100%;
+}
+#section3 .container .gap .content1 {
+  width: 100%;
+  height: 320px;
+  background: #fff;
+  margin: 0 0 12px 0;
+  border-radius: 12px;
+  border-top-right-radius: 60px;
+  padding: 25px 18px;
+}
+#section3 .container .gap .content1 .nav-box {
+  width: 100%;
+  border-bottom: 1px solid #e3e3e3;
+  display: flex;
+  text-align: center;
+}
+#section3 .container .gap .content1 .nav-box li {
+  width: 25%;
+}
+#section3 .container .gap .content1 .nav-box li a {
+  display: block;
+  padding: 38px 0 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -1.5px;
+  font-family: "CookieRun-Regular";
+  color: #313131;
+}
+#section3 .container .gap .content1 .nav-box li.sec3-content1-1 a {
+  background: url(../img/icon_mainService1.jpg) no-repeat 50% 0;
+}
+#section3 .container .gap .content1 .nav-box li.sec3-content1-1.on a {
+  color: #3e35aa;
+  border-bottom: 2px solid #3e35aa;
+  background: url(../img/icon_mainService1_on.jpg) no-repeat 50% 0;
+}
+#section3 .container .gap .content1 .nav-box li.sec3-content1-2 a {
+  background: url(../img/icon_mainService2.jpg) no-repeat 50% 0;
+}
+#section3 .container .gap .content1 .nav-box li.sec3-content1-2.on a {
+  color: #9a39a5;
+  border-bottom: 2px solid #9a39a5;
+  background: url(../img/icon_mainService2_on.jpg) no-repeat 50% 0;
+}
+#section3 .container .gap .content1 .nav-box li.sec3-content1-3 a {
+  background: url(../img/icon_mainService3.jpg) no-repeat 50% 0;
+}
+#section3 .container .gap .content1 .nav-box li.sec3-content1-3.on a {
+  color: #256e73;
+  border-bottom: 2px solid #256e73;
+  background: url(../img/icon_mainService3_on.jpg) no-repeat 50% 0;
+}
+#section3 .container .gap .content1 .nav-box li.sec3-content1-4 a {
+  background: url(../img/icon_mainService4.jpg) no-repeat 50% 0;
+}
+#section3 .container .gap .content1 .nav-box li.sec3-content1-4.on a {
+  color: #4d6e2f;
+  border-bottom: 2px solid #4d6e2f;
+  background: url(../img/icon_mainService4_on.jpg) no-repeat 50% 0;
+}
+#section3 .container .gap .content1 .content-box {
+  width: 100%;
+  padding: 10px 0 0 0;
+}
+#section3 .container .gap .content1 .content-box ul {
+  width: 100%;
+}
+#section3 .container .gap .content1 .content-box ul li {
+  display: inline-block;
+  width: 48%;
+  position: relative;
+  margin: 0 1%;
+  padding: 10px 0 10px 8px;
+  border-bottom: 1px dotted #c5c5c5;
+  letter-spacing: -1px;
+  line-height: 120%;
+}
+#section3 .container .gap .content1 .content-box ul li a {
+  font-size: 16px;
+  font-family: "NanumSquare";
+  color: #313131;
+  line-height: 120%;
+}
+#section3 .container .gap .content1 .content-box ul li a:hover {
+  background: rgb(255, 220, 0);
+}
+#section3 .container .gap .content1 .content-box ul li::after {
+  content: "";
+  position: absolute;
+  top: 18px;
+  left: 0;
+  width: 3px;
+  height: 3px;
+  background: #3e35aa;
+  border-radius: 50%;
+}
+#section3 .container .gap .content2 {
+  width: 100%;
+  height: 280px;
+  background: #d8faf5;
+  margin: 0 0 12px 0;
+  padding: 10px 20px 15px 20px;
+  border-radius: 12px;
+}
+#section3 .container .gap .content2 .nav-box {
+  width: 100%;
+  display: flex;
+  margin: 0 0 8px 0;
+  border-bottom: 1px solid #c0e1dc;
+}
+#section3 .container .gap .content2 .nav-box li {
+  margin: 0 20px 0 0;
+}
+#section3 .container .gap .content2 .nav-box li a {
+  display: block;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 32px;
+  font-family: "CookieRun-Regular";
+  color: #1e1e1e;
+  letter-spacing: -1px;
+}
+#section3 .container .gap .content2 .nav-box li.on a {
+  color: #008f87;
+  border-bottom: 2px solid #229992;
+}
+#section3 .container .gap .content2 .content-box {
+  width: 100%;
+}
+#section3 .container .gap .content2 .content-box ul {
+  width: 100%;
+}
+#section3 .container .gap .content2 .content-box ul li {
+  display: inline-block;
+  width: 50%;
+  padding: 2px;
+}
+#section3 .container .gap .content2 .content-box ul li dl {
+  height: 105px;
+  background: #fff;
+  border-radius: 5px;
+}
+#section3 .container .gap .content2 .content-box ul li dl dt {
+  background: #229992;
+  height: 30px;
+  margin: 0 0 5px 0;
+  line-height: 30px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "CookieRun-Regular";
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+#section3 .container .gap .content2 .content-box ul li dl dd {
+  padding: 0 13px;
+}
+#section3 .container .gap .content2 .content-box ul li dl dd a {
+  display: inline-block;
+  position: relative;
+  padding: 1px 0 3px 8px;
+  font-size: 15px;
+  color: #111;
+  line-height: 130%;
+  letter-spacing: -1px;
+}
+#section3 .container .gap .content2 .content-box ul li dl dd a::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 3px;
+  height: 3px;
+  background: #565656;
+  border-radius: 50%;
+}
+#section3 .container .gap .content2 .content-box ul li dl dd a:hover {
+  background: rgb(255, 220, 0);
+}
+#section3 .container .gap .content3 {
+  width: 100%;
+  position: relative;
+}
+#section3 .container .gap .content3 .slide-container {
+  width: 100%;
+  height: 160px;
+}
+#section3 .container .gap .content3 .slide-container .slide-view {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+#section3 .container .gap .content3 .slide-container .slide-view .slide-wrap {
+  width: 700%;
+  display: flex;
+  margin: 0 0 0 -100%;
+  position: relative;
+}
+#section3 .container .gap .content3 .slide-container .slide-view .slide-wrap li {
+  width: 100%;
+}
+#section3 .container .gap .content3 .slide-container .slide-view .slide-wrap li a img {
+  width: 100%;
+  height: 160px;
+}
+#section3 .container .gap .content3 .slide-btn-box {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  width: 120px;
+  height: 28px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#section3 .container .gap .content3 .slide-btn-box span {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  line-height: 28px;
+  margin: 0 0 0 10px;
+}
+#section3 .container .gap .content3 .slide-btn-box span i {
+  margin: 0 2px;
+}
+#section3 .container .gap .content3 .slide-btn-box .prev-btn {
+  display: block;
+  width: 6px;
+  height: 11px;
+  background: url(../img/icon_mainMiniPopSlider_prev.png) no-repeat 50% 50%;
+}
+#section3 .container .gap .content3 .slide-btn-box .next-btn {
+  display: block;
+  width: 6px;
+  height: 11px;
+  background: url(../img/icon_mainMiniPopSlider_next.png) no-repeat 50% 50%;
+  margin: 0 -20px 0 -15px;
+}
+#section3 .container .gap .content3 .slide-btn-box .play-btn {
+  display: block;
+  width: 8px;
+  height: 11px;
+  background: url(../img/icon_mainMiniPopSlider_stop.png) no-repeat 50% 50%;
+  margin: 0 20px 0 0;
+}
+#section3 .container .gap .content4 {
+  width: 100%;
+  background: #fff;
+  padding: 33px 0 0 0;
+  display: flex;
+}
+#section3 .container .gap .content4 span {
+  display: block;
+  width: 101px;
+  height: 104px;
+  background: url(../img/img_mainSns_title.gif) no-repeat 0 0;
+  text-align: center;
+  font-size: 24px;
+  color: #3e35aa;
+  font-weight: 900;
+  line-height: 104px;
+  letter-spacing: -1px;
+}
+#section3 .container .gap .content4 div p {
+  color: #6c6c6c;
+  margin: 0 0 15px 10px;
+  padding: 10px 0 0 0;
+  font-size: 14px;
+  line-height: 145%;
+  letter-spacing: -1px;
+}
+#section3 .container .gap .content4 div ul {
+  padding: 10px 0 0 7px;
+  float: right;
+}
+#section3 .container .gap .content4 div ul li {
+  display: inline-block;
+  margin: 0 0 3px 3px;
+  transition: all 0.1s;
+}
+#section3 .container .gap .content4 div ul li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: url(../img/icon_mainSns1.jpg) no-repeat 50% 50%;
+}
+#section3 .container .gap .content4 div ul li a.icon2 {
+  background-image: url(../img/icon_mainSns2.jpg);
+}
+#section3 .container .gap .content4 div ul li a.icon3 {
+  background-image: url(../img/icon_mainSns3.jpg);
+}
+#section3 .container .gap .content4 div ul li a.icon4 {
+  background-image: url(../img/icon_mainSns4.jpg);
+}
+#section3 .container .gap .content4 div ul li a.icon5 {
+  background-image: url(../img/icon_mainSns5.jpg);
+}
+#section3 .container .gap .content4 div ul li a.icon6 {
+  background-image: url(../img/icon_mainSns6.png);
+}
+#section3 .container .gap .content4 div ul li:hover {
+  margin: -35px 0 0 3px;
+}

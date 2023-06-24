@@ -1,0 +1,75 @@
+#main-banner {
+  width: 100%;
+  height: 85px;
+}
+#main-banner .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+#main-banner .container .gap {
+  width: 100%;
+  padding: 16px 0 0 0;
+}
+#main-banner .container .gap .content {
+  width: 100%;
+  position: relative;
+}
+#main-banner .container .gap .content .slide-container {
+  width: 100%;
+  padding: 0 195px 0 0;
+}
+#main-banner .container .gap .content .slide-container .slide-view {
+  width: 100%;
+  overflow: hidden;
+}
+#main-banner .container .gap .content .slide-container .slide-view .slide-wrap {
+  width: 480%;
+  display: flex;
+  position: relative;
+  margin: 0 0 0 -120%;
+}
+#main-banner .container .gap .content .slide-container .slide-view .slide-wrap .slide {
+  width: 20%;
+  padding: 1px;
+  text-align: center;
+  position: relative;
+}
+#main-banner .container .gap .content .slide-container .slide-view .slide-wrap .slide a img {
+  width: auto;
+}
+#main-banner .container .gap .content .slide-container .slide-view .slide-wrap .slide::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  height: 24px;
+  border-right: 1px solid #eaeaea;
+  margin: -12px 0 0 0;
+}
+#main-banner .container .gap .content .main-banner-btn-box {
+  position: absolute;
+  top: 10px;
+  right: 13px;
+  display: flex;
+}
+#main-banner .container .gap .content .main-banner-btn-box a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  margin: 0 2px;
+}
+#main-banner .container .gap .content .main-banner-btn-box a.prev-btn {
+  background: url(../img/icon_mainBanner_prev.gif) no-repeat 50% 50%;
+}
+#main-banner .container .gap .content .main-banner-btn-box a.play-btn {
+  background: url(../img/icon_mainBanner_stop.gif) no-repeat 50% 50%;
+}
+#main-banner .container .gap .content .main-banner-btn-box a.next-btn {
+  background: url(../img/icon_mainBanner_next.gif) no-repeat 50% 50%;
+}
+#main-banner .container .gap .content .main-banner-btn-box a.all-menu {
+  background: url(../img/icon_mainBanner_all.gif) no-repeat 50% 50%;
+}

@@ -1,0 +1,31 @@
+#right-quick{
+    z-index: 55;
+    position: fixed;
+    top: 210px;
+    left: 50%;
+    margin: 0 0 0 671px;
+    a{
+        display: block;
+        width: 103px;
+        height: 139px;
+        background: url(../img/btn_election_icon2.png) no-repeat;
+        animation: quickJump 0.3s 12 alternate;
+        &:hover{
+            position: relative;
+            &::after{
+                content: '';
+                position: absolute;
+                top: -100px;
+                left: -140px;
+                width: 210px;
+                height: 123px;
+                background: url(../img/icon_rightQuick_on2.png) no-repeat;
+            }
+        }
+    }
+}
+
+@keyframes quickJump {
+    0%{margin-top: 0; }
+    100%{margin-top: -25px; }
+}
